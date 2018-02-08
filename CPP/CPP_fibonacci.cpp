@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
 int main()
 {
@@ -15,5 +16,6 @@ next = first + second;
 first = second;
 second = next;
 }
-    return 0;
+    	getch();
+	return 0;
 }
